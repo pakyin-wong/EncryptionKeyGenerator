@@ -1,14 +1,13 @@
-package ekg;
+package encryptionutils;
 
 import java.io.File;
-import java.security.NoSuchAlgorithmException;
 
 import javax.crypto.SecretKey;
 
-public class EncryptionKeyGeneratorCLI {
+public class EncryptionUtilsCLI {
 	 
 	public static void main(String args[]) throws Exception{
-		EncryptionKeyGenerator ekg = new EncryptionKeyGenerator();
+		EncryptionUtils ekg = new EncryptionUtils();
 		//Testing Base64
 		String out = ekg.encodeToBase64String("Test".getBytes());
 		System.out.println(out);

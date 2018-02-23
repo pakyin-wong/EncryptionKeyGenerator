@@ -1,4 +1,4 @@
-package ekg;
+package encryptionutils;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -16,7 +16,7 @@ import javax.crypto.spec.IvParameterSpec;
 
 import org.apache.commons.codec.binary.Base64;
 
-public class EncryptionKeyGenerator {
+public class EncryptionUtils {
 	int BLOCK_SIZE = 16;
 	int KEY_LENGTH = 128;
 	
